@@ -4,20 +4,14 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        I am Tabinda Noor
+        ALLAHTALAH You know what i want 
+        meray mola meray pyare qadir 
+        meray malik mujy wo ata kr do me chahti hon
+        mujy kabhi bhi bhataknay na dena meray mola 
+        ay wo k jis k hath me meri jan ha 
+        </div>
     </div>
   );
 }
