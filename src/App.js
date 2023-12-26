@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       <div>
-        {/* <Temp/> */}
-        </div>
+        <h1>Music Player</h1>
+      </div>
     </div>
   );
 }
