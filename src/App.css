@@ -62,7 +62,7 @@ input {
 button {
   padding: 8px;
   background-color: #00ff00; /* Neon green */
-  color: #000;
+  /* color: #000; */
   border: none;
   cursor: pointer;
 }
@@ -72,3 +72,9 @@ button {
 }
 
 /* You can add more styling as needed */
+.main{
+
+  max-width: 360px ;
+  overflow: hidden;
+  backdrop-filter: blur(5px);
+}
