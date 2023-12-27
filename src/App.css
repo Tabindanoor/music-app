@@ -1,5 +1,6 @@
-.App {
+/* .App {
   text-align: center;
+ 
 }
 
 .App-logo {
@@ -38,7 +39,6 @@
 }
 
 
-/* Add your neon styles here */
 .App {
   text-align: center;
   padding: 50px;
@@ -61,8 +61,7 @@ input {
 
 button {
   padding: 8px;
-  background-color: #00ff00; /* Neon green */
-  /* color: #000; */
+  background-color: #00ff00; 
   border: none;
   cursor: pointer;
 }
@@ -70,11 +69,4 @@ button {
 .result-container {
   margin-top: 20px;
 }
-
-/* You can add more styling as needed */
-.main{
-
-  max-width: 360px ;
-  overflow: hidden;
-  backdrop-filter: blur(5px);
-}
+ */
