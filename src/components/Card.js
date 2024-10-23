@@ -80,23 +80,22 @@ const Card = ({ props: { musicNumber, setMusicNumber, open, setOpen } }) => {
   };
 
   return (
-    <div className='bg-purple-300 justify-center w-[360px] position-relative text-center mx-auto p-6 absolute'>
+    <div className='bg-gray-500 justify-center w-[360px] position-relative text-center rounded-2xl  mx-auto p-5  absolute'>
       <div className='flex justify-between text-xl'>
-        <p className='mt-2'>
+        <p className='mt-1'>
           <IoIosArrowDown className='cursor-pointer' onClick={() => setOpen(!open)} />
         </p>
-        <p>Now Playing {musicNumber + 1}/ {Data.length}</p>
-        <p className='mt-2'>
+        <p className='text-base'>Now Playing {musicNumber + 1}/ {Data.length}</p>
+        <p className='mt-1'>
           <LuListMusic className='cursor-pointer' onClick={() => setOpen(!open)} />
         </p>
       </div>
-      <br />
-      <div className='justify-center mx-auto rounded-full'>
+      <div className='justify-center mx-auto rounded-full mt-3'>
         <img className='w-[250px] border-2 border-purple-800 h-[250px] mx-auto justify-center rounded-full' src={Data[musicNumber].thumbnail} alt="" />
       </div>
       <div className="details">
-        <h2 className='text-2xl mt-2'>{Data[musicNumber].title}</h2>
-        <h3 className='text-xl mt-2 text-gray-500'>{Data[musicNumber].artist}</h3>
+        <h2 className='text-xl mt-1'>{Data[musicNumber].title}</h2>
+        <h3 className='text-xl mt-1 text-black font-bold'>{Data[musicNumber].artist}</h3>
       </div>
       <div className="range">
         <input
@@ -108,7 +107,7 @@ const Card = ({ props: { musicNumber, setMusicNumber, open, setOpen } }) => {
           onChange={handleRangeChange}
         />
       </div>
-      <div className="time-span flex justify-between -mt-3">
+      <div className="time-span flex justify-between -mt-2">
         <span>{formatDuration(currentTime)}</span>
         <span>{(Data[musicNumber].duration)}</span>
       </div>
@@ -130,7 +129,6 @@ const Card = ({ props: { musicNumber, setMusicNumber, open, setOpen } }) => {
           <IoMdVolumeHigh className='cursor-pointer' onClick={handleVolumeToggle} />
         )}
       </div>
-      <br />
       <div className="audio-controls">
         <audio src={audio.src} controls={false} />
       </div>

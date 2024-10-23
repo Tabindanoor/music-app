@@ -79,7 +79,7 @@ const Data =[
     },{
         id:12,
         title:"Men yahan hon yahan ",
-        artist:"",
+        artist:"Shah Rukh Khan ",
         thumbnail:require('../../images/men yahan.jpeg'),
         src:require('../../videos/Main Yahaan Hoon Full Song Veer-Zaara Shah Rukh Khan, Preity Zinta Madan Mohan, Udit Nar.mp3'),
         duration:"04:56"
