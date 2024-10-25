@@ -91,7 +91,8 @@ const Card = ({ props: { musicNumber, setMusicNumber, open, setOpen } }) => {
   };
 
   return (
-    <div className='bg-gray-500 justify-center w-[340px]  bg-gradient-to-r from-purple-900 via-indigo-900 to-blue-900 position-relative text-center rounded-2xl mx-auto p-5 absolute shadow-2xl shadow-amber-50'>
+    <div className='bg-gray-500 w-[320px] justify-center  bg-gradient-to-r from-purple-800 via-indigo-700 to-blue-500 position-relative text-center rounded-2xl mx-auto p-5 shadow-inner shadow-amber-50'>
+    {/* <div className='bg-gray-500 justify-center  bg-gradient-to-r from-purple-900 via-indigo-900 to-blue-900 position-relative text-center rounded-2xl mx-auto p-5 absolute shadow-2xl shadow-amber-50'> */}
       <div className='flex justify-between text-xl'>
         <p className='mt-1'>
           <IoIosArrowDown className='cursor-pointer' onClick={() => setOpen(!open)} />
